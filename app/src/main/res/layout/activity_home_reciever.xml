@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#b2b2ff"
+    android:padding="10dp"
+    >
+    <Button
+        android:id="@+id/loginHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:layout_weight="0.25"
+        android:background="#7f7fff"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/regHome"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_marginTop="5dp"
+        android:text="Registration"
+        android:textColor="#ffffff"
+        android:layout_weight="0.25"
+        android:background="#7f7fff"
+        android:textSize="25sp" />
+
+
+
+</LinearLayout>
+

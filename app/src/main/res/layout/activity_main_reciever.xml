@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Reciever"
+    android:background="#b2b2ff">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:orientation="horizontal"
+       >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Doubt"
+            android:id="@+id/doubt"
+            android:layout_alignParentTop="true"
+            android:background="#7f7fff"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="View Doubt"
+            android:id="@+id/viewdoubt"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/doubt"
+            android:background="#7f7fff"
+            android:layout_weight="1"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/logout"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:text="logout"
+            android:background="#7f7fff"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </LinearLayout>
+
+
+    <TextureView
+        android:background="@drawable/cast_bgpng"
+        android:id="@+id/textureView"
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/relativeLayout" />
+
+
+</RelativeLayout>

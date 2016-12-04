@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b2b2ff"
+    android:padding="50dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:hint="Name"
+            > <requestFocus />
+        </EditText>
+
+
+
+        <EditText
+            android:id="@+id/roll_reg"
+
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:hint="ROLL NO. => 2013IPG-XXX" >
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/pass_reg"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:hint="Password"
+            android:inputType="textPassword" >
+        </EditText>
+        <EditText
+            android:id="@+id/class_reg"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:layout_marginTop="@dimen/pad_5dp" android:hint="CLASS FORMAT => 2013IPG"
+             >
+        </EditText>
+
+
+        <Button
+            android:id="@+id/Register"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#7f7fff"
+
+            android:textColor="#ffffff"
+            android:text="Register" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
